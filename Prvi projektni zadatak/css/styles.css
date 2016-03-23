@@ -387,7 +387,7 @@ ul {
 	font-weight: bold;
 }
 
-.redForme input[type="text"]{
+.redForme input[type="text"], input[type="email"]{
 	float: right;
 	clear: right;
 	width: 67%;
@@ -404,7 +404,7 @@ ul {
 	padding: 2%;
 }
 
-.redForme input[type="submit"]{
+.redForme button{
 	float: right;
 	margin: 2% 0;
 	width: 40%;
