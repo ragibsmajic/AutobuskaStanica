@@ -1,0 +1,546 @@
+body{
+	font-family: Georgia;
+	background: linear-gradient(to left,#003973, #E5E5BE);
+	font-size: 14px;
+	margin: 0 auto;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#header{
+	background-color: #484848; 
+	opacity: 0.85;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+#header:hover{
+	opacity: 1;
+	transition: all 500ms ease;
+}
+
+#header h1{
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	color:white;
+}
+
+#navbar{
+	text-align: center;
+	float: right;
+	margin-top: -2%;
+	margin-right: 2%;
+}
+
+#navbar ul{
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+	opacity: 0.85;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#navbar ul li{
+	float:left;
+	display: inline-block;
+}
+
+#navbar ul li a{
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+#navbar ul li a:hover{
+	color: #484848;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.trenutnaStranica{
+	text-decoration: underline;
+}
+
+#container{
+	position: relative;
+	top: 120px;
+}
+
+#lijevaSekcija{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 2% 2% 2% 2%;
+	border-radius: 5px;
+	text-align: center;
+	width: 47%;
+	float: left;
+	clear: left;
+}
+
+#lijevaSekcija h2, #desnaSekcija h2{
+	color: white;
+}
+
+.postLijevaSekcija, .postDesnaSekcija{
+	margin: 2%;
+	background-color: white;
+	border-radius: 5px;
+	height: 140vh;
+	overflow: hidden;
+}
+
+.postLijevaSekcija h3, .postDesnaSekcija h3{
+	padding: 5%;
+	text-align: center;
+	color: #0066FF;
+	font-style: italic;
+	font-size: 150%;
+}
+
+.postLijevaSekcija p, .postDesnaSekcija p{
+	padding: 2%;
+	text-align: left;
+}
+.postLijevaSekcija p.porukaODatumuObjave, .postDesnaSekcija p.porukaODatumuObjave{
+	padding: 0 2%;
+	font-style: italic;
+	 
+}
+
+.postLijevaSekcija img, .postDesnaSekcija img{
+	max-width: 100%;
+	padding: 0;
+}
+
+#desnaSekcija{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 2% 2% 2% 0%;
+	border-radius: 5px;
+	width: 47%;
+	float: right;
+	clear: right;
+	text-align: center;
+}
+
+#novosti{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 0% 2% 2% 2%;
+	border-radius: 5px;
+	width: 62%;
+	float: left;
+	clear: left;
+}
+
+#sidebar{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 0% 2% 2% 0%;
+	border-radius: 5px;
+	width: 32%;
+	float: right;
+	clear: right;
+}
+
+.clr{
+	clear:both;
+}
+
+#footer{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 0% 2% 0% 2%;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.footerNav{
+	width: 40%;
+	text-align:center;
+	float:left;
+	overflow: hidden;
+}
+
+.footerNav h3, .footerSocialContent h3{
+	text-align:center;	
+}
+
+.footerNav ul {
+	padding: 0;
+}
+
+.footerNav ul li{
+	padding: 3px 0px;
+	font-weight: bold;
+}
+
+.footerNav ul li a{
+	color: white;
+}
+
+.footerNav ul li a:hover{
+	text-decoration: underline;
+}
+
+.footerSocialContent{
+	width: 50%;
+	text-align: center;
+	float: right;
+}
+
+.footerSocialContent ul{
+	padding: 0;
+}
+
+.footerSocialContent ul li{
+	display: inline;
+	padding: 5px;
+}
+
+.footerSocialContent ul li img{
+	height: 50px;
+}
+
+#footer p{
+	text-align:center;
+	border-top: 1px solid white;
+	padding-top: 10px;
+}
+
+#copyRight{
+	display: inline-block;
+	width: 95%;
+}
+
+/* =============================== LOGO ========================= */
+#logo{
+	margin-left: 4%;
+	float: left;
+}
+
+.okvirBusa{
+	width: 157px;
+	height: 80px;
+	background: #708090;
+	margin-left: 27px;
+	border-radius: 15px 15px 0 0;
+}
+
+
+.prozor1{
+	width: 30px;
+	height: 20px;
+	background: #c9dbdc;
+	margin-top: -80px;
+	margin-left: 5px;
+	border: 1px solid white;
+	border-radius: 5px 0 5px;
+}
+
+.prozor2{
+	width: 30px;
+	height: 20px;
+	background: #c9dbdc;	
+	margin-top: -22px;
+	margin-left: 35px;
+	border: 1px solid white;
+}
+
+.prozor3{
+	width: 30px;
+	height: 20px;
+	background: #c9dbdc;
+	margin-top: -22px;
+	margin-left: 66px;
+	border: 1px solid white;
+}
+
+.prozor4{
+	width: 30px;
+	height: 20px;
+	background: #c9dbdc;
+	margin-top: -22px;
+	margin-left: 97px;
+	border: 1px solid white;
+	border-radius: 0px 5px 0 0;
+}
+
+.tocak1{
+	width: 20px;
+	height: 20px;
+	background: #404040;
+	border-radius: 50px;
+	margin-top: 35px;
+}
+
+.tocak2{
+	width: 20px;
+	height: 20px;
+	background: #404040;
+	border-radius: 50px;
+	margin-top: -20px;
+	margin-left: 110px;
+}
+
+.natpis{
+	margin-left: 70px;
+	margin-top: -60px;
+	color: #FFA500;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Helvetica;
+}
+
+.slogan{
+	color: #FFA500;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-align: left;
+	font-size: 200%;
+	padding-left: 35%;
+	
+}
+
+/* ===================================================== O nama ==================================================== */
+
+.mainContentOnama{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 2% 2% 2% 2%;
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.contentOnama{
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.contentOnama h1{
+	text-align: left;
+	font-size: 150%;
+	font-style: italic;
+	padding: 2%;
+}
+
+.contentOnama p{
+	text-align: left;
+	padding: 2%;
+}
+
+/* ===================================================== Kontakt ==================================================== */
+
+.mainContentKontakt{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 2% 2% 2% 2%;
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.contentKontakt{
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+.contentKontakt h1{
+	text-align: left;
+	font-size: 150%;
+	font-style: italic;
+	padding: 2% 0 0 2%;
+}
+
+.formaContainer{	
+	padding:1%;
+	display: inline-block;
+	margin: 0 0 3% 0;
+	border-radius: 5px;
+	width: 40%;
+	background-color: #c9dbdc;
+	
+}
+
+
+.redForme label{
+	display: block;
+	text-align: left;
+	margin:2% 2% 3% 0;
+	width: 25%;
+	float: left;
+	clear: left;
+	padding: 1% 0;
+	font-weight: bold;
+}
+
+.redForme input[type="text"], input[type="email"]{
+	float: right;
+	clear: right;
+	width: 67%;
+	margin: 2% 0;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.redForme textarea{
+	width: 95%;
+	height: 110px;
+	resize: none;
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.redForme button{
+	float: right;
+	margin: 2% 0;
+	width: 40%;
+	height: 25px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+/* ===================================================== FBiH Linije =============================================== */
+
+.mainContentFbihLinije{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 2% 2% 2% 2%;
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.contentFbihLinije{
+	background-color: white;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+.contentFbihLinije h1{
+	text-align: left;
+	font-size: 150%;
+	font-style: italic;
+	padding: 2% 0 0 2%;
+}
+
+.tableContainer{
+	display: inline-block;
+	text-align: center;
+	margin: 2%;
+}
+
+.tableContainer table{
+	display: inline-block;
+	border-collapse: collapse;
+	font-size: 90%;
+}
+
+
+
+th, td{
+	padding: 2%;
+}
+
+.tableContainer table th{
+	width: 22%;
+	border-bottom: 1px dotted black;
+	background-color: #FFA500;
+}
+
+.tableContainer table td{
+	border-bottom: 1px dotted black;
+}
+
+.tableContainer table .parniRed{
+	background-color: lightblue;
+}
+
+.tableContainer table .neparniRed{
+	background-color: #F5F5F5;
+}
+
+/* ===================================================== Partneri =============================================== */
+
+.mainContentPartneri{
+	background-color: #484848;
+	opacity: 0.85;
+	margin: 2% 2% 2% 2%;
+	border-radius: 5px;
+	padding: 2%;
+}
+
+.contentPartneri{
+	background-color: white;
+	border-radius: 5px;
+	
+}
+
+.contentPartneri h1{
+	text-align: left;
+	font-size: 150%;
+	font-style: italic;
+	padding: 2% 0 0 2%;
+}
+
+.contentPartneri ul{
+	display: inline-block;
+}
+
+.partneriContainer{
+	text-align: center;
+}
+
+.contentPartneri ul li:hover{
+	list-style-image: url(../images/arrowIcon.png); 
+}
+
+.contentPartneri ul li {
+	padding-bottom: 10%;
+	width: 100%;
+	
+}
+
+/*===================== Azuriranje Datuma Objave =========================*/
+
+.datumObjave{
+	display: none;
+}
+
+/*===================== Filter ========================*/
+
+#filter{
+	position: absolute;
+	top: 10%;
+	right: 2%;
+	padding: 0;
+	width:20%;
+}
+
+#filter p{
+	float: left;
+	margin-top: 0;
+	margin-right: 2%;
+	color: white;
+}
+
+
+
