@@ -525,5 +525,5 @@ function validirajFormuZaNovostLijevo()
 
 function posaljiPodatak(value)
 {
-	window.location.assign("http://localhost/ProjektniZad3/index.php?sortiranje=" + value.toString());
+	window.location.assign("http://localhost/index.php?sortiranje=" + value.toString());
 }
